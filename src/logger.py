@@ -21,6 +21,3 @@ def get_logger(name: str = __name__) -> logging.Logger:
     return logging.getLogger(name)
 
 
-if __name__ == "__main__":
-    logger = get_logger()
-    logger.info("Logging has started")
